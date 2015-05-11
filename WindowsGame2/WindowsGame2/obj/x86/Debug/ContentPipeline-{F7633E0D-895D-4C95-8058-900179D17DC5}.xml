@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>fade.png</Source>
+      <Name>fade</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\fade.xnb</Output>
+      <Time>2015-03-24T00:32:45.0674985-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Splash\image1.png</Source>
+      <Name>Splash\image1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Splash\image1.xnb</Output>
+      <Time>2015-05-01T03:14:27.9173882-05:00</Time>
+    </Item>
+    <Item>
+      <Source>null.png</Source>
+      <Name>null</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\null.xnb</Output>
+      <Time>2015-04-22T01:40:39.0021416-05:00</Time>
+    </Item>
+    <Item>
+      <Source>FreedanWalking.png</Source>
+      <Name>FreedanWalking</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\FreedanWalking.xnb</Output>
+      <Time>2015-04-23T02:02:19.0437482-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TileSets\tileSet1.png</Source>
+      <Name>TileSets\tileSet1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\TileSets\tileSet1.xnb</Output>
+      <Time>2015-05-10T17:51:49.3578524-05:00</Time>
+    </Item>
+    <Item>
+      <Source>WillWalking.png</Source>
+      <Name>WillWalking</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\WillWalking.xnb</Output>
+      <Time>2015-05-06T02:40:34.1268889-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Font1.spritefont</Source>
+      <Name>Font1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Font1.xnb</Output>
+      <Time>2015-04-20T21:33:51.6995986-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuFont.spritefont</Source>
+      <Name>MenuFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\MenuFont.xnb</Output>
+      <Time>2015-04-21T01:32:53.737725-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TileSets\SkyBackground.png</Source>
+      <Name>TileSets\SkyBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\TileSets\SkyBackground.xnb</Output>
+      <Time>2015-05-10T12:25:40.3434495-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TileSets\Background01.png</Source>
+      <Name>TileSets\Background01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\TileSets\Background01.xnb</Output>
+      <Time>2015-05-10T13:24:02.8244561-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TileSets\Background02.png</Source>
+      <Name>TileSets\Background02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\TileSets\Background02.xnb</Output>
+      <Time>2015-05-10T13:24:02.8264557-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TileSets\Background03.png</Source>
+      <Name>TileSets\Background03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\TileSets\Background03.xnb</Output>
+      <Time>2015-05-10T13:24:02.8284578-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TileSets\Background04.png</Source>
+      <Name>TileSets\Background04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\TileSets\Background04.xnb</Output>
+      <Time>2015-05-10T13:24:02.8304566-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TileSets\Background05.png</Source>
+      <Name>TileSets\Background05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\TileSets\Background05.xnb</Output>
+      <Time>2015-05-10T13:24:02.831457-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\jump.wav</Source>
+      <Name>Audio\jump</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Audio\jump.xnb</Output>
+      <Time>2015-05-10T16:19:43.8727588-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\neckSnap.wav</Source>
+      <Name>Audio\neckSnap</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Audio\neckSnap.xnb</Output>
+      <Time>2015-05-10T16:19:43.8687571-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\realPunch.wav</Source>
+      <Name>Audio\realPunch</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Audio\realPunch.xnb</Output>
+      <Time>2015-05-10T16:19:43.8707577-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\strongPunch.wav</Source>
+      <Name>Audio\strongPunch</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Audio\strongPunch.xnb</Output>
+      <Time>2015-05-10T15:52:21.2555005-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\walking.wav</Source>
+      <Name>Audio\walking</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Audio\walking.xnb</Output>
+      <Time>2015-05-10T16:19:43.8627578-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Illusions.mp3</Source>
+      <Name>Audio\Illusions</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Audio\Illusions.xnb</Output>
+      <Extra>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Audio\Illusions.wma</Extra>
+      <Time>2015-05-10T17:40:12.0283866-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{F7633E0D-895D-4C95-8058-900179D17DC5}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-02-10T21:06:13.3771549-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
