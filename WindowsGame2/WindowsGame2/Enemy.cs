@@ -11,7 +11,13 @@ namespace WindowsGame2
 {
     public class Enemy : Entity
     {
+        protected int count = 3;
 
+        public int Count
+        {
+            get { return count; }
+            set { count = value; }
+        }
         public override void LoadContent(ContentManager content, List<string> attributes, List<string> contents, InputManager input)
         {
  	        base.LoadContent(content, attributes, contents, input);
@@ -33,6 +39,7 @@ namespace WindowsGame2
         public override void Update(GameTime gameTime, InputManager input, Collision col, Layer layer)
         {
             base.Update(gameTime, input, col, layer);
+            moveAnimation.DrawColor = Color.White;
             if(direction == 1)
             {
                 velocity.X = moveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;

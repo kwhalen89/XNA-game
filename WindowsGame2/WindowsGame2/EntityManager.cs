@@ -20,7 +20,7 @@ namespace WindowsGame2
         {
             get { return entities; }
         }
-
+ 
         public void LoadContent(string entityType, ContentManager Content, string fileName, string identifier, InputManager input)
         {
             this.input = input;
@@ -49,12 +49,19 @@ namespace WindowsGame2
                 entities[i].UnloadContent();
             }
         }
-
+ 
         public void Update(GameTime gameTime, Map map)
         {
             for (int i = 0; i < entities.Count; i++)
             {
                 entities[i].Update(gameTime, input, map.collision, map.layer1);
+            }
+            for(int i = 0; i < entities.Count; i++)
+            {
+                if(entities[i].Health < 1)
+                {
+                    entities.RemoveAt(i);
+                }
             }
         }
 
@@ -66,6 +73,17 @@ namespace WindowsGame2
                 {
                     if (e.Rect.Intersects(e2.Rect))
                         e.OnCollision(e2);
+                }
+            }
+        }
+
+        public void BulletsCollision(EntityManager E2)
+        {
+            foreach (Entity e in entities)
+            {
+                foreach (Entity e2 in E2.Entities)
+                {
+                        e.BulletCollision(e2);
                 }
             }
         }

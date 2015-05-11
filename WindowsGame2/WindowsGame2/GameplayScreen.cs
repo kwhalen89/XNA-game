@@ -16,6 +16,7 @@ namespace WindowsGame2
         Map map;
         Song illusions;
         bool songStart = false;
+        SpriteFont font;
 
         public override void LoadContent(ContentManager content, InputManager input)
         {
@@ -23,6 +24,7 @@ namespace WindowsGame2
             player = new EntityManager();
             enemies = new EntityManager();
             map = new Map();
+            font = content.Load<SpriteFont>("Font1");
             map.LoadContent(content, map, "Map1");
             player.LoadContent("Player", content, "Load/Player.k", "", input);
             enemies.LoadContent("Enemy", content, "Load/Enemies.k", "Level1", input);
@@ -52,7 +54,6 @@ namespace WindowsGame2
             }
             //creates ref for updates below
             Entity e;
-
             for(int i = 0; i < player.Entities.Count; i++)
             { 
                 //updates all players
@@ -69,7 +70,9 @@ namespace WindowsGame2
                 enemies.Entities[i] = e;
             }
             
+            player.BulletsCollision(enemies);
             player.EntityCollision(enemies);
+
         }
 
         public override void Draw(SpriteBatch spriteBatch)
@@ -79,6 +82,14 @@ namespace WindowsGame2
             //map needs to be drawn before player now due to player needing to be over top of map
             player.Draw(spriteBatch);
             enemies.Draw(spriteBatch);
+            if (player.Entities.Count == 0)
+            {
+                spriteBatch.DrawString(font, "You Lose, try again.", new Vector2(250, 150), Color.Red);
+            }
+            if (enemies.Entities.Count == 0)
+            {
+                spriteBatch.DrawString(font, "You Win!", new Vector2(250, 150), Color.Red);
+            }
         }
     }
 }

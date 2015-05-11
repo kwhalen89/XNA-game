@@ -97,7 +97,7 @@ namespace WindowsGame2
             if (text != String.Empty)
             {
                 font = this.content.Load<SpriteFont>("Font1");
-                color = new Color(114, 77, 255);
+                color = new Color(255, 77, 77);
             }
             rotation = 0.0f;
             axis = 0.0f;

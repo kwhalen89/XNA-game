@@ -182,6 +182,15 @@
       <Extra>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Audio\Illusions.wma</Extra>
       <Time>2015-05-10T17:40:12.0283866-05:00</Time>
     </Item>
+    <Item>
+      <Source>Bullet.png</Source>
+      <Name>Bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Bullet.xnb</Output>
+      <Time>2015-05-10T21:12:15.7571748-05:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{F7633E0D-895D-4C95-8058-900179D17DC5}</ContentProjectGUID>

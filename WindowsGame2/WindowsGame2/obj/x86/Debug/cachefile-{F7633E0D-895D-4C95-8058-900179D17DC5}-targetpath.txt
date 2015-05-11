@@ -19,3 +19,4 @@ Content\Audio\strongPunch.xnb
 Content\Audio\walking.xnb
 Content\Audio\Illusions.xnb
 Content\Audio\Illusions.wma
+Content\Bullet.xnb

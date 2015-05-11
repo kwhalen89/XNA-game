@@ -30,3 +30,4 @@ C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\Wi
 C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Audio\walking.xnb
 C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Audio\Illusions.xnb
 C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Audio\Illusions.wma
+C:\Users\Kurt\documents\visual studio 2013\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\Bullet.xnb

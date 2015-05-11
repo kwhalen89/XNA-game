@@ -38,7 +38,6 @@ namespace WindowsGame2
         public void Update(GameTime gameTime)
         {
             layer1.Update(gameTime);
-            //layer2.Update(gameTime);
         }
 
         public void UpdateCollision(ref Entity e)
@@ -48,7 +47,6 @@ namespace WindowsGame2
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            //layer2.Draw(spriteBatch);
             layer1.Draw(spriteBatch);
         }
     }

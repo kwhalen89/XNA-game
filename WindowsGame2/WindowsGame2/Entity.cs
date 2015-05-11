@@ -29,6 +29,12 @@ namespace WindowsGame2
         protected int direction;
         protected Vector2 destPosition, origPosition;
 
+        public int Health
+        {
+            get { return health; }
+            set { health = value; }
+        }
+
         public int Direction
         {
             get { return direction; }
@@ -126,6 +132,12 @@ namespace WindowsGame2
         public virtual void UnloadContent()
         {
             content.Unload();
+            moveAnimation = null;
+            gravity = 0.0f;
+            syncTilePostion = false;
+            activateGravity = false;
+            velocity = Vector2.Zero;
+            ssAnimation = null;
         }
 
         public virtual void Update(GameTime gameTime, InputManager input, Collision col, Layer layer)
@@ -138,6 +150,9 @@ namespace WindowsGame2
         {
         }
 
+        public virtual void BulletCollision(Entity e)
+        {
+        }
         public virtual void Draw(SpriteBatch spriteBatch)
         { 
         
